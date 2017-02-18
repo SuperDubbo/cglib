@@ -1,0 +1,14 @@
+group 'com.hz'
+version '1.0-SNAPSHOT'
+
+apply plugin:'java'
+
+sourceCompatibility=1.7
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+    compile group: 'cglib', name: 'cglib', version: '3.2.4'
+}
